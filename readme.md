@@ -31,3 +31,6 @@ The "Hacking Whiskey" Augmented Book cover was made in Unity editor for Ubuntu u
 11. ```Build and Run``` and save for example `ARBookCover.apk`
 
 12. Point at images below!
+![Hacking Whiskey Back Cover](https://github.com/burrussmp/Augmented-Reality-Book-Cover/blob/master/resources/FrontCover.jpg)
+
+![Hacking Whiskey Back Cover](https://github.com/burrussmp/Augmented-Reality-Book-Cover/blob/master/resources/BackCover.png)
