@@ -10,9 +10,9 @@ The "Hacking Whiskey" Augmented Book cover was made in Unity editor for Ubuntu u
 
 1. ```git clone https://github.com/burrussmp/Augmented-Reality-Book-Cover.git```
 
-2. Open up ```UnityHub``` and add the cloned project
+2. Open up ```UnityHub``` and add the cloned project.
 
-3. In ```/Assets/Scenes/``` open ```SampleScene```
+3. In ```/Assets/Scenes/``` open ```SampleScene```. Select the ```FrontCoverTarget```
 
 4. In ```Build Settings``` change Platform to ```Android``` and click ```Switch Platform```
 

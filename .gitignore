@@ -9,7 +9,6 @@ Assets/AssetStoreTools*
 .gitignore.swp
 AugmentedBookCover.apk
 Logs/
-Packages/
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
 # ===================================== #
