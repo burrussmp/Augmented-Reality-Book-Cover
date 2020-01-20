@@ -10,6 +10,23 @@ The "Hacking Whiskey" Augmented Book cover was made in Unity editor for Ubuntu u
 
 There is also [a link to an example video](https://drive.google.com/drive/folders/11NAlZhVQ4U7Caj7vRz-Z-jqkbGkimdmK?usp=sharing) showing the augmented reality app working.
 
+# Brief Description of the Code
+## Creating the database
+A database was created under the developer tab at vuforia.com. I loaded an image of the front and back cover and then downloaded the asset and imported it into my unity project.
+
+## Front Cover Target
+After adding a Vuforia AR camera to the project and deleting the default camera, I added an "Image Target" and re-named it the FrontCoverTarget. I then added the target of the front cover by selecting to use databases, using the AugmentedRealityDatabase, and selecting the front cover. I then added all of the assets below.
+
+For the front cover target, the custom assets I designed include the whiskey cup, whiskey, and wood chips, as well as the text and backdrop. The assets I designed using Blender. I added smoke using a Shuriken Particle system where I followed a tutorial online and figured out how to miniaturize it to a small smolder.
+
+## Back Cover
+For the back cover, I did the same setup. I found a set of barrels on the asset store that were free that I imported. I added the info and then I clicked on the target and added a virtual button. I added a simple script with a boolean counter that whenever the button was clicked would toggle. The toggle switches between the info and a simple review. Furthermore, the text on the button changes each toggle.
+
+## Limitations
+1. The computer vision is limited and when the camera angle is almost parallel to a face of the book it sometimes has difficulty recognizing the target because an image facing the front/back cover's were uploaded. This is somewhat of an issue because the graphics are best looked at from an angle; however, it's not terrible.
+
+2. The liquid (whiskey) has no physics attached to it and is static. This is the same for the cup. The only interactive aspect of the project is the button and visually interactive is the smoke.
+
 
 # Getting Started
 
