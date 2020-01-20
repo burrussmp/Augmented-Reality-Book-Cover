@@ -12,7 +12,7 @@ The "Hacking Whiskey" Augmented Book cover was made in Unity editor for Ubuntu u
 
 2. Open up ```UnityHub``` and add the cloned project.
 
-3. In ```/Assets/Scenes/``` open ```SampleScene```. Select the ```FrontCoverTarget```
+3. In ```/Assets/Scenes/``` open ```SampleScene```. Select the ```FrontCoverTarget``` and double check that a target image is available (Image Target Behaviour/ where Type should be From Database, Database should be AugmentedBookCover, and Image Target should be Front_Cover_Hacking_Whiskey). Do the same for the ```BackCoverTarget``` and make sure the Image Target is Back_Cover_Hacking_Whiskey.
 
 4. In ```Build Settings``` change Platform to ```Android``` and click ```Switch Platform```
 
